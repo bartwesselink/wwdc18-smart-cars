@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Terms</key>
+	<dict>
+		<key>navigation</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Smart%20Cars/Night%20vision</string>
+				<key>Title</key>
+				<string>Night vision</string>
+			</dict>
+			<key>Definition</key>
+			<string>System in cars that tells drivers how to get to a provided destination.</string>
+		</dict>
+		<key>cycle</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>Title</key>
+				<string>Traffic lights</string>
+				<key>PageReference</key>
+				<string>Smart%20Cars/Traffic%20lights</string>
+			</dict>
+			<key>Definition</key>
+			<string>A piece of code that gets executed over and over again.</string>
+		</dict>
+		<key>sensor</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Smart%20Cars/Traffic%20lights</string>
+				<key>Title</key>
+				<string>Traffic lights</string>
+			</dict>
+			<key>Definition</key>
+			<string>A device that can transfer signals from the physical world into electrical signals.</string>
+		</dict>
+		<key>motor</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>Title</key>
+				<string>Introduction</string>
+				<key>PageReference</key>
+				<string>Smart%20Cars/Introduction</string>
+			</dict>
+			<key>Definition</key>
+			<string>An actuator (see definition) that can transform energy into physical motion.</string>
+		</dict>
+		<key>artificial intelligence</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Smart%20Cars/Introduction</string>
+				<key>Title</key>
+				<string>Introduction</string>
+			</dict>
+			<key>Definition</key>
+			<string>Field in science that specialises on executing tasks on computers that would traditionally require a human brain (like image recognition).</string>
+		</dict>
+		<key>actuators</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Smart%20Cars/Introduction</string>
+				<key>Title</key>
+				<string>Introduction</string>
+			</dict>
+			<key>Definition</key>
+			<string>Devices that can move an object in the physical world.</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
