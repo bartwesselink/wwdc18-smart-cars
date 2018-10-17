@@ -43,5 +43,5 @@ func moveForward(speed: Int) {
 //#-code-completion(everything, hide)
 moveForward(speed: /*#-editable-code*/<#T##speed##Int#>/*#-end-editable-code*/)
 /*:
- This was easy! But, uhm, did it just ignore a red traffic light? We need to improve its skills! [Move on!](@next)
+ This was easy! But, um, did it just ignore a red traffic light? We need to improve its skills! [Move on!](@next)
  */

@@ -1,7 +1,7 @@
 //#-code-completion(everything, hide)
 //#-code-completion(identifier, show, drive())
 /*:
- Now that we've finally come here, it is time to put all the pieces together. Everything you've created in previous pages, is now combined into one method: `drive()`. It contains everything: person and traffic light detection, auto-navigation and auto-lighting. In this playbook we've covered the very basics of how self-driving cars work, so by now you should be able to understand how [sensors](glossary://sensor) and [actuators](glossary://actuator) (like [motors](glossary://motor)) work toghether in these cars.
+ Now that we've finally come here, it is time to put all the pieces together. Everything you've created in previous pages, is now combined into one method: `drive()`. It contains everything: person and traffic light detection, auto-navigation and auto-lighting. In this playbook we've covered the very basics of how self-driving cars work, so by now you should be able to understand how [sensors](glossary://sensor) and [actuators](glossary://actuator) (like [motors](glossary://motor)) work together in these cars.
  */
 //#-hidden-code
 
@@ -64,7 +64,9 @@ func play() {
 // create a closure (which is not visible for the user)
 let brain: () -> () = {
 //#-end-hidden-code
-/*#-editable-code*/<#What is the only method we have to call?#>/*#-end-editable-code*/
+//#-editable-code What is the only method we have to call?
+
+//#-end-editable-code
 //#-hidden-code
 }
 

@@ -60,12 +60,18 @@ let brain: (TrafficLight?, Bool) -> () = {
 //#-end-hidden-code
 if (🚦 == nil || 🚦?.state == .green) {
     if (👱🏾) {
-        /*#-editable-code*/<#Quick! We spotted a person#>/*#-end-editable-code*/
+        //#-editable-code Quick! We spotted a person
+        
+        //#-end-editable-code
     } else {
-        /*#-editable-code*/<#No person to be seen!#>/*#-end-editable-code*/
+        //#-editable-code No person to be seen!
+        
+        //#-end-editable-code
     }
 } else {
-    /*#-editable-code*/<#A red traffic light! Now what?#>/*#-end-editable-code*/
+    //#-editable-code A red traffic light! Now what?
+    
+    //#-end-editable-code
 }
 //#-hidden-code
 }
@@ -152,7 +158,7 @@ if (!(mustContinue && !mustStop)) {
     } else {
         playCorrectState()
 
-        PlaygroundPage.current.assessmentStatus = .pass(message: "Great! Your cars very first brain. Well done. Ready to evolve it further? [Let's go!](@next)")
+        PlaygroundPage.current.assessmentStatus = .pass(message: "Great! Your cars' very first brain. Well done. Ready to evolve it further? [Let's go!](@next)")
     }
 }
 

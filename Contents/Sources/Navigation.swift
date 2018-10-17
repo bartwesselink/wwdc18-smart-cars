@@ -22,14 +22,8 @@ public class Navigation: BaseSprite, UpdatableNode {
                                         animation.reversed()])))
     }
     
-    public enum NavigationDirection {
-        case left
-        case forward
-        case right
-    }
-    
-    private var currentDirection: NavigationDirection = .forward
-    public var direction: NavigationDirection {
+    private var currentDirection: Direction = .forward
+    public var direction: Direction {
         set {
             self.currentDirection = newValue
             

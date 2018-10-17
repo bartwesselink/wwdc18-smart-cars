@@ -1,7 +1,7 @@
 //#-code-completion(everything, hide)
 //#-code-completion(identifier, show, moveForward(), moveLeft(), moveRight(), enableLights())
 /*:
- It has been so long since we've started, that night has fallen. Don't forget to enable your lights (call `enableLights()`)! We will now move on with an essential part for self-driving cars, namely: [navigation](glossary://navigation). How does a car know where to go, if we don't tell it? The next part of implementing the brain, is creating the navigation controller. This controller (🗺️) has a property `🗺️.direction`, which can be `.left`, `.forward`, `.right`. It is up to you to implement the directions. We added two methods, so now you have `moveForward()`, `moveLeft()` and `moveRight()`.
+ It has been so long since we've started, that night has fallen. Don't forget to enable your lights (call `enableLights()`)! We will now move on with an essential part for self-driving cars, namely: [navigation](glossary://navigation). How does a car know where to go, if we don't tell it? The next part of implementing the brain, is creating the navigation controller. This controller (🗺️) has a property `🗺️.direction`, which can equal `.left`, `.forward`, `.right`. It is up to you to implement the directions. We added a few methods, so now you have `moveForward()`, `moveLeft()` and `moveRight()`.
  */
 //#-hidden-code
 
@@ -131,18 +131,26 @@ let brain: (Navigation) -> () = {
 
 //#-end-hidden-code
 if (🌃) {
-    /*#-editable-code*/<#Night time! No sleep yet, but what is necessary?#>/*#-end-editable-code*/
+    //#-editable-code Night time! No sleep yet, but what is necessary?
+    
+    //#-end-editable-code
 }
     
 switch (🗺️.direction) {
-case /*#-editable-code*/<#Which direction?#>/*#-end-editable-code*/:
-    /*#-editable-code*/<#What do we have to do then?#>/*#-end-editable-code*/
+case /*#-editable-code*//*#-end-editable-code*/:
+    //#-editable-code What do we have to do then?
+    
+    //#-end-editable-code
     break
-case /*#-editable-code*/<#Which direction?#>/*#-end-editable-code*/:
-    /*#-editable-code*/<#What do we have to do then?#>/*#-end-editable-code*/
+case /*#-editable-code*//*#-end-editable-code*/:
+    //#-editable-code What do we have to do then?
+    
+    //#-end-editable-code
     break
-case /*#-editable-code*/<#Which direction?#>/*#-end-editable-code*/:
-    /*#-editable-code*/<#What do we have to do then?#>/*#-end-editable-code*/
+case /*#-editable-code*//*#-end-editable-code*/:
+    //#-editable-code What do we have to do then?
+    
+    //#-end-editable-code
     break
 }
 //#-hidden-code
